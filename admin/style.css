@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+@font-face {
+  font-family: "Castellar";
+  src: url("C:\Users\79654\OneDrive\Рабочий стол\модел\css\fonts\Castellar.ttf");
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Kurale", serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  scroll-behavior: smooth;
+  text-align: center;
+}
+
+ul{
+    line-height: 50px;
+   
+    text-align: center;   
+}
+
+li {
+    display: inline-block; 
+    background: rgb(189, 189, 189);
+    margin: 20px;
+}
+
+a{
+    margin-right: 50px;
+    margin-left: 50px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+tr{
+  height: 80px;
+}
+
+td{
+  width: 150px;
+}
+
+table{
+  margin: 50px;
+    
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin: 50px;
+    text-align: center;
+}
+tbody{
+  margin: 50px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin: 50px;
+    text-align: center;
+  }
+  
+  input{
+    margin: 20px;
+    background: #cfd9ff;
+  }
+  .th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* Для четных строк таблицы (для улучшения читаемости) */
+  .tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Для ячеек */
+  td, th {
+    padding: 14px;
+    border: 1px solid #7d7d7d;
+    text-align: center;
+    line-height: 2.5;
+  }
+  
+  /* Для ссылок в ячейках */
+  td a {
+    text-decoration: none;
+    color: #4e7f9f;
+  }
+
+  form{
+padding: 10px;
+
+
+  }
+
+  h1{
+    font-size: 30px;
+    font-family: "Kurale", serif;
+    text-align: center;
+    line-height: 3;
+    margin-top: 50px;
+  }
+
+  h2{
+    font-size: 20px;
+    font-family: "Kurale", serif;
+    text-align: center;
+  }
+
+  .container2{
+color: aqua;
+  }
